@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Your Job Title</title> <!-- REPLACE: Your name and job title -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" data-page="home">Your<span>Name</span></div> <!-- REPLACE: Your name -->
+                <ul class="nav-links">
+                    <li><a class="nav-link active" data-page="home">Home</a></li>
+                    <li><a class="nav-link" data-page="projects">Projects</a></li>
+                    <li><a class="nav-link" data-page="skills">Skills</a></li>
+                    <li><a class="nav-link" data-page="github">GitHub</a></li>
+                    <li><a class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section class="page-container active" id="home-page">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Hello, <span class="highlight">I'm Your Name</span></h1> <!-- REPLACE: Your name -->
+                <p>Customize this short introduction about yourself here. Briefly describe what you do.</p> <!-- REPLACE: Short intro -->
+                <div>
+                    <a class="btn" data-page="projects">View My Work</a>
+                    <a class="btn btn-outline" data-page="contact">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Your Professional Tagline</h3> <!-- REPLACE: Professional tagline -->
+                        <p>Replace this paragraph with your personal introduction. Describe your professional background, what you're passionate about, and what you bring to the table. This is your elevator pitch.</p> <!-- REPLACE: Personal introduction -->
+                        <p>Add more details about your experience, approach to work, or specific expertise. Talk about what makes you unique as a developer or designer. This could include your work philosophy or specialization areas.</p> <!-- REPLACE: Additional details -->
+                        <div class="skills">
+                            <span class="skill">Primary Skill 1</span> <!-- REPLACE: Your skills -->
+                            <span class="skill">Primary Skill 2</span>
+                            <span class="skill">Primary Skill 3</span>
+                            <span class="skill">Primary Skill 4</span>
+                            <span class="skill">Primary Skill 5</span>
+                            <span class="skill">Primary Skill 6</span>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="learning-path">
+                            <h4>Currently Learning & Exploring:</h4>
+                            <ul>
+                                <li><i class="fas fa-code"></i> New Technology or Framework</li> <!-- REPLACE: Current learning 1 -->
+                                <li><i class="fas fa-database"></i> Backend Development Area</li> <!-- REPLACE: Current learning 2 -->
+                                <li><i class="fas fa-mobile-alt"></i> Design or Development Skill</li> <!-- REPLACE: Current learning 3 -->
+                                <li><i class="fas fa-shield-alt"></i> Performance or Security Topic</li> <!-- REPLACE: Current learning 4 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Projects</h2>
+                </div>
+                <div class="project-filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Websites</button>
+                    <button class="filter-btn">Web Apps</button>
+                    <button class="filter-btn">UI/UX</button>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #b7c1ec 0%, #dabef5 100%);">
+                            <p>Project 1 Name</p> <!-- REPLACE: Project 1 name -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Project 1 Title</h3> <!-- REPLACE: Project 1 title -->
+                            <p>Describe your first project here. Explain what it does, what problems it solves, and what technologies you used. Highlight any unique features or challenges you overcame.</p> <!-- REPLACE: Project 1 description -->
+                            <div class="project-tags">
+                                <span class="project-tag">Technology 1</span> <!-- REPLACE: Project 1 tech stack -->
+                                <span class="project-tag">Technology 2</span>
+                                <span class="project-tag">Technology 3</span>
+                                <span class="project-tag">Technology 4</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="project-link"> <!-- REPLACE: GitHub link -->
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="YOUR_LIVE_DEMO_LINK_HERE" class="project-link"> <!-- REPLACE: Live demo link -->
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #eebff3 0%, #ebb3ba 100%);">
+                            <p>Project 2 Name</p> <!-- REPLACE: Project 2 name -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Project 2 Title</h3> <!-- REPLACE: Project 2 title -->
+                            <p>Describe your second project here. Focus on the purpose, your role in the project, and what you learned from building it. Mention any interesting technical aspects.</p> <!-- REPLACE: Project 2 description -->
+                            <div class="project-tags">
+                                <span class="project-tag">Technology 1</span> <!-- REPLACE: Project 2 tech stack -->
+                                <span class="project-tag">Technology 2</span>
+                                <span class="project-tag">Technology 3</span>
+                                <span class="project-tag">Technology 4</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="project-link"> <!-- REPLACE: GitHub link -->
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="YOUR_LIVE_DEMO_LINK_HERE" class="project-link"> <!-- REPLACE: Live demo link -->
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #bbd9f3 0%, #afecf0 100%);">
+                            <p>Project 3 Name</p> <!-- REPLACE: Project 3 name -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Project 3 Title</h3> <!-- REPLACE: Project 3 title -->
+                            <p>Describe your third project here. Explain the inspiration behind it, how it works, and what makes it special. Include any user feedback or results if applicable.</p> <!-- REPLACE: Project 3 description -->
+                            <div class="project-tags">
+                                <span class="project-tag">Technology 1</span> <!-- REPLACE: Project 3 tech stack -->
+                                <span class="project-tag">Technology 2</span>
+                                <span class="project-tag">Technology 3</span>
+                                <span class="project-tag">Technology 4</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="project-link"> <!-- REPLACE: GitHub link -->
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="YOUR_LIVE_DEMO_LINK_HERE" class="project-link"> <!-- REPLACE: Live demo link -->
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px;">
+                    <a class="btn" data-page="projects">View All Projects</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Projects Page -->
+    <section class="page-container" id="projects-page">
+        <div class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Projects</h2>
+                    <p>Customize this subheading to describe your project collection or approach to work</p> <!-- REPLACE: Projects page description -->
+                </div>
+                
+                <div class="design-categories">
+                    <div class="design-category">
+                        <div class="design-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Your Project Category 1</h3> <!-- REPLACE: Category 1 title -->
+                        <p>Describe the type of projects in this category and what they typically involve</p> <!-- REPLACE: Category 1 description -->
+                        <a class="btn">View Projects</a>
+                    </div>
+                    
+                    <div class="design-category">
+                        <div class="design-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Your Project Category 2</h3> <!-- REPLACE: Category 2 title -->
+                        <p>Explain what makes these projects special and what skills they demonstrate</p> <!-- REPLACE: Category 2 description -->
+                        <a class="btn">View Projects</a>
+                    </div>
+                    
+                    <div class="design-category">
+                        <div class="design-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Your Project Category 3</h3> <!-- REPLACE: Category 3 title -->
+                        <p>Highlight the focus or methodology used in these types of projects</p> <!-- REPLACE: Category 3 description -->
+                        <a class="btn">View Projects</a>
+                    </div>
+                    
+                    <div class="design-category">
+                        <div class="design-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Your Project Category 4</h3> <!-- REPLACE: Category 4 title -->
+                        <p>Describe the purpose or learning outcomes from these projects</p> <!-- REPLACE: Category 4 description -->
+                        <a class="btn">View Projects</a>
+                    </div>
+                </div>
+                
+                <div class="projects-grid" style="margin-top: 60px;">
+                    <!-- Additional projects with similar customization comments -->
+                    <div class="project-card">
+                        <div class="project-img" style="background: linear-gradient(135deg, #aee9c1 0%, #b8eee4 100%);">
+                            <p>Additional Project Name</p> <!-- REPLACE: Additional project name -->
+                        </div>
+                        <div class="project-info">
+                            <h3>Additional Project Title</h3> <!-- REPLACE: Additional project title -->
+                            <p>Describe this project. Focus on the development process, challenges faced, and solutions implemented.</p> <!-- REPLACE: Additional project description -->
+                            <div class="project-tags">
+                                <span class="project-tag">Tech Used 1</span> <!-- REPLACE: Tech stack -->
+                                <span class="project-tag">Tech Used 2</span>
+                                <span class="project-tag">Tech Used 3</span>
+                                <span class="project-tag">Tech Used 4</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="project-link"> <!-- REPLACE: GitHub link -->
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="YOUR_LIVE_DEMO_LINK_HERE" class="project-link"> <!-- REPLACE: Live demo link -->
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Add more project cards as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Page -->
+    <section class="page-container" id="skills-page">
+        <div class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Skills & Expertise</h2>
+                    <p>Customize this description of your skills and areas of expertise</p> <!-- REPLACE: Skills page description -->
+                </div>
+                
+                <div class="services">
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Your Primary Skill Area 1</h3> <!-- REPLACE: Skill area 1 title -->
+                        <p>Describe your expertise in this area. Mention specific technologies, methodologies, or approaches you use.</p> <!-- REPLACE: Skill area 1 description -->
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 1 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 2 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 3 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 4 -->
+                        </ul>
+                    </div>
+                    
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>Your Primary Skill Area 2</h3> <!-- REPLACE: Skill area 2 title -->
+                        <p>Explain your capabilities in this domain. Focus on practical applications and outcomes.</p> <!-- REPLACE: Skill area 2 description -->
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 1 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 2 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 3 -->
+                            <li><i class="fas fa-check"></i> Specific skill or technique</li> <!-- REPLACE: Specific skill 4 -->
+                        </ul>
+                    </div>
+                    
+                    <div class="service">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Your Primary Skill Area 3</h3> <!-- REPLACE: Skill area 3 title -->
+                        <p>Detail your proficiency with tools and workflows in this category.</p> <!-- REPLACE: Skill area 3 description -->
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Specific tool or workflow</li> <!-- REPLACE: Specific tool 1 -->
+                            <li><i class="fas fa-check"></i> Specific tool or workflow</li> <!-- REPLACE: Specific tool 2 -->
+                            <li><i class="fas fa-check"></i> Specific tool or workflow</li> <!-- REPLACE: Specific tool 3 -->
+                            <li><i class="fas fa-check"></i> Specific tool or workflow</li> <!-- REPLACE: Specific tool 4 -->
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="learning-path-section" style="margin-top: 60px; text-align: center;">
+                    <h3 style="color: var(--text-color); margin-bottom: 40px; font-size: 2rem;">Skills I'm Currently Developing</h3>
+                    <div class="services" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+                        <div class="service">
+                            <div class="service-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h3>Skill You're Learning 1</h3> <!-- REPLACE: Learning skill 1 -->
+                            <p>Describe what you're learning and how it complements your existing skills</p> <!-- REPLACE: Learning description 1 -->
+                        </div>
+                        <div class="service">
+                            <div class="service-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h3>Skill You're Learning 2</h3> <!-- REPLACE: Learning skill 2 -->
+                            <p>Explain why you're learning this and what projects you plan to use it for</p> <!-- REPLACE: Learning description 2 -->
+                        </div>
+                        <div class="service">
+                            <div class="service-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>Skill You're Learning 3</h3> <!-- REPLACE: Learning skill 3 -->
+                            <p>Detail your learning goals and how this skill will enhance your capabilities</p> <!-- REPLACE: Learning description 3 -->
+                        </div>
+                        <div class="service">
+                            <div class="service-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3>Skill You're Learning 4</h3> <!-- REPLACE: Learning skill 4 -->
+                            <p>Describe the practical applications of this skill in your future work</p> <!-- REPLACE: Learning description 4 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Page -->
+    <section class="page-container" id="github-page">
+        <div class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>GitHub Profile</h2>
+                    <p>Customize this description of your GitHub presence and coding journey</p> <!-- REPLACE: GitHub page description -->
+                </div>
+                
+                <div class="github-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">Customize</div> <!-- REPLACE: Your GitHub stat -->
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Your</div> <!-- REPLACE: Your GitHub stat -->
+                        <div class="stat-label">Commits</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Stats</div> <!-- REPLACE: Your GitHub stat -->
+                        <div class="stat-label">Repositories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">Here</div> <!-- REPLACE: Your GitHub stat -->
+                        <div class="stat-label">Status</div>
+                    </div>
+                </div>
+                
+                <div style="text-align: center; margin: 40px 0;">
+                    <a href="YOUR_GITHUB_PROFILE_LINK_HERE" target="_blank" class="btn">Visit My GitHub Profile</a> <!-- REPLACE: GitHub profile link -->
+                </div>
+                
+                <div class="github-projects">
+                    <div class="section-title">
+                        <h3>Featured Repositories</h3>
+                    </div>
+                    
+                    <div class="projects-grid">
+                        <!-- Customize GitHub project cards similarly -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section class="page-container" id="contact-page">
+        <div class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>Customize this invitation for people to contact you</p> <!-- REPLACE: Contact invitation -->
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-info-header">
+                            <h3>Contact Information</h3>
+                            <p>Customize this text about how people can reach you</p> <!-- REPLACE: Contact info description -->
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <a href="mailto:YOUR_EMAIL_HERE">your.email@example.com</a> <!-- REPLACE: Your email -->
+                                <p>Customize response time expectation</p> <!-- REPLACE: Response time -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Your City, Country</p> <!-- REPLACE: Your location -->
+                                <p>Customize availability information</p> <!-- REPLACE: Availability -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <a href="tel:+YOUR_PHONE_NUMBER">+XX XXX XXX XXXX</a> <!-- REPLACE: Your phone number -->
+                                <p>Customize call hours or preferences</p> <!-- REPLACE: Call hours -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Social Media</h3>
+                                <p>Connect with me on these platforms</p>
+                                <div class="social-links-contact">
+                                    <a href="YOUR_LINKEDIN_LINK_HERE" class="social-link-contact" title="LinkedIn"> <!-- REPLACE: LinkedIn link -->
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="YOUR_TWITTER_LINK_HERE" class="social-link-contact" title="Twitter"> <!-- REPLACE: Twitter link -->
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="social-link-contact" title="GitHub"> <!-- REPLACE: GitHub link -->
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="YOUR_INSTAGRAM_LINK_HERE" class="social-link-contact" title="Instagram"> <!-- REPLACE: Instagram link -->
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <div class="form-header">
+                            <h3>Send a Message</h3>
+                            <p>Customize this form description</p> <!-- REPLACE: Form description -->
+                        </div>
+                        <!-- Formspree Form used // In space of # enter your formspree link -->
+                        <form id="contactForm" action="YOUR_FORMSPREE_LINK_HERE" method="POST"> <!-- REPLACE: Formspree link -->
+                            <!-- Form fields remain the same -->
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Your Name</h3> <!-- REPLACE: Your name -->
+                    <p>Customize your footer message. Thank visitors and mention what you're interested in (collaborations, opportunities, etc.).</p> <!-- REPLACE: Footer message -->
+                    <div class="social-links">
+                        <a href="YOUR_LINKEDIN_LINK_HERE" class="social-link"><i class="fab fa-linkedin-in"></i></a> <!-- REPLACE: LinkedIn link -->
+                        <a href="YOUR_TWITTER_LINK_HERE" class="social-link"><i class="fab fa-twitter"></i></a> <!-- REPLACE: Twitter link -->
+                        <a href="YOUR_GITHUB_LINK_HERE" target="_blank" class="social-link"><i class="fab fa-github"></i></a> <!-- REPLACE: GitHub link -->
+                        <a href="YOUR_INSTAGRAM_LINK_HERE" class="social-link"><i class="fab fa-instagram"></i></a> <!-- REPLACE: Instagram link -->
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <!-- Navigation links remain the same -->
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p> <!-- REPLACE: Your name -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

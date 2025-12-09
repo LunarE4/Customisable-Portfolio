@@ -37,8 +37,7 @@ your-portfolio/
 Customization Guide
 
 1. Personal Information
-2. 
-Replace all placeholder text marked with <!-- REPLACE: --> comments:
+2. Replace all placeholder text marked with <!-- REPLACE: --> comments:
 
 In index.html:
 

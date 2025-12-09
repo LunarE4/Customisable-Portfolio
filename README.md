@@ -5,6 +5,7 @@ A modern, responsive portfolio website template with a soothing color palette an
 
 
 Features
+
 Modern Design System: Clean, soothing color palette with soft blues and grays
 
 Fully Responsive: Works perfectly on desktop, tablet, and mobile devices
@@ -24,7 +25,7 @@ Customizable: Easy to modify colors, content, and layout
 
 
 File Structure
-text
+
 your-portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # Main CSS file with all styles
@@ -36,6 +37,7 @@ your-portfolio/
 Customization Guide
 
 1. Personal Information
+2. 
 Replace all placeholder text marked with <!-- REPLACE: --> comments:
 
 In index.html:
@@ -72,7 +74,9 @@ Phone number (tel: links)
 
 
 2. Styling Customization
+
 In styles.css:
+
 The color palette uses CSS custom properties for easy customization:
 
 css
@@ -96,6 +100,7 @@ css
 
 
 3. Projects
+
 Add your projects by:
 
 Creating new .project-card elements
@@ -110,6 +115,7 @@ Linking to GitHub repos and live demos
 
 
 4. Skills
+
 Update skills by:
 
 Modifying the skill tags in the About section
@@ -122,6 +128,7 @@ Adjusting skill proficiency levels (in the CSS)
 
 
 5. GitHub Integration
+
 To showcase your GitHub stats:
 
 Replace placeholder stats with your actual numbers
@@ -133,6 +140,7 @@ Consider integrating GitHub API for dynamic stats (requires additional JavaScrip
 
 
 Formspree Setup
+
 Go to Formspree.io and create an account
 
 Create a new form
@@ -146,6 +154,7 @@ Test the form to ensure emails are delivered correctly
 
 
 Browser Support
+
 Chrome (latest)
 
 Firefox (latest)
@@ -157,6 +166,7 @@ Edge (latest)
 
 
 Performance Optimization
+
 All images are loaded efficiently
 
 CSS is optimized with modern techniques
@@ -168,6 +178,7 @@ Fonts are loaded from Google Fonts CDN
 Icons are from Font Awesome CDN
 
 Accessibility Features
+
 Semantic HTML structure
 
 ARIA labels where needed
@@ -181,10 +192,12 @@ Focus states for interactive elements
 
 
 License
+
 This template is free to use for personal and commercial projects. Attribution is appreciated but not required.
 
 
 Support
+
 For issues or questions:
 
 Check the code comments for guidance
@@ -195,6 +208,7 @@ Contact via github
 
 
 Credits
+
 Font Awesome for icons
 
 Google Fonts for Inter typeface
@@ -205,6 +219,7 @@ Modern CSS techniques and design patterns
 
 
 Updates & Maintenance
+
 Regularly update:
 
 Project portfolio with new work
